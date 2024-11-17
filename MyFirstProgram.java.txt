@@ -1,0 +1,30 @@
+package schoolInfo;
+
+public class Adminstration {
+	
+	
+	public void adminModule() {
+		
+		System.out.println("Welcome to Adminstration department");
+	}
+	
+	public void libraryModule() {
+		
+		System.out.println("Welcome to Library department");
+	}
+	
+	public void studentModule() {
+		
+		System.out.println("Welcome to Adminstration department");
+	}
+
+
+public static void main (String[] args) {
+	Adminstration objAdmin = new Adminstration();
+	
+	objAdmin.adminModule();
+	objAdmin.libraryModule();
+	objAdmin.studentModule();
+	
+}		
+}
